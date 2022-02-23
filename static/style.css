@@ -547,6 +547,9 @@ i{
     body {
         /*....background-color: green !important;...*/
       }
+    .margin-top-contaxt{
+        margin-top: 50px;
+    }
     .margin-top-mobile1{
         margin-top: 50px;
     }
