@@ -10,7 +10,7 @@
 
     <title>Contact | Floor Designs Toronto</title>
     <link rel="icon" href="static/img/floordesigns_to_logo_pack.png">
-    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="/static/style.css">
 
     <script src="https://kit.fontawesome.com/31c7b3f944.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -103,7 +103,7 @@
             <div class="col-12 col-md-8"  data-aos="fade" data-aos-duration="3000">
                 <div class="container-contact100">
                     <div class="wrap-contact100">
-                        <form class="contact100-form validate-form">
+                        <form class="contact100-form validate-form" action="https://formspree.io/f/xgedkbnn" method="POST">
                             <!--<span class="contact100-form-title">
                                 Contact Us
                             </span>-->
@@ -127,13 +127,13 @@
                                 <input class="input100" type="text" name="date" placeholder="MM/DD/YYY">
                             </div>
             
-                            <div class="wrap-input100 bg1 rs1-wrap-input100">
+                            <div class="wrap-input100 bg1 rs1-wrap-input100 validate-input">
                                 <span class="label-input100">Location</span>
                                 <input class="input100" type="text" name="location" placeholder="Enter Address">
                             </div>
             
-                            <div class="wrap-input100 input100-select bg1">
-                                <span class="label-input100">Needed Services *</span>
+                            <div class="wrap-input100 input100-select bg1 validate-input">
+                                <span class="label-input100 alidate-input">Needed Services *</span>
                                 <div>
                                     <select class="js-select2" name="service">
                                         <option>Please chooses</option>
@@ -149,46 +149,7 @@
                                 </div>
                             </div>
             
-                            <div class="w-full dis-none js-show-service">
-                                <div class="wrap-contact100-form-radio">
-                                    <span class="label-input100">What type of products do you sell?</span>
-            
-                                    <div class="contact100-form-radio m-t-15">
-                                        <input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
-                                        <label class="label-radio100" for="radio1">
-                                            Phycical Products
-                                        </label>
-                                    </div>
-            
-                                    <div class="contact100-form-radio">
-                                        <input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
-                                        <label class="label-radio100" for="radio2">
-                                            Digital Products
-                                        </label>
-                                    </div>
-            
-                                    <div class="contact100-form-radio">
-                                        <input class="input-radio100" id="radio3" type="radio" name="type-product" value="service">
-                                        <label class="label-radio100" for="radio3">
-                                            Services Consulting
-                                        </label>
-                                    </div>
-                                </div>
-            
-                                <div class="wrap-contact100-form-range">
-                                    <span class="label-input100">Budget *</span>
-            
-                                    <div class="contact100-form-range-value">
-                                        $<span id="value-lower">610</span> - $<span id="value-upper">980</span>
-                                        <input type="text" name="from-value">
-                                        <input type="text" name="to-value">
-                                    </div>
-            
-                                    <div class="contact100-form-range-bar">
-                                        <div id="filter-bar"></div>
-                                    </div>
-                                </div>
-                            </div>
+                            
             
                             <div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
                                 <span class="label-input100">Message</span>

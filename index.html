@@ -11,7 +11,7 @@
     <title>Floor Designs Toronto</title>
     <link rel="icon" href="static/img/floordesigns_to_logo_pack.png">
 
-    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="/static/style.css">
 
     <script src="https://kit.fontawesome.com/31c7b3f944.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -91,8 +91,8 @@
         </div>
         
     </nav> 
- 
-    <img style="z-index: 2;" data-aos="fade-right" data-aos-duration="1000"class="img-banner" src="static/img/young-couple-at-their-wedding-walking-towards-the-2021-08-30-21-59-25-utc.jpg" alt="">
+    <img style="z-index: 2;" data-aos="fade-right" data-aos-duration="1000"class="img-banner  " src="static/img/IMG-8150.JPG" alt="">
+
     <div class="row">
         <div class="col-12">
             <h1 data-aos="fade" data-aos-duration="2000" class="h1-banner">FLOORS<br>Designs<br>toronto
@@ -102,6 +102,7 @@
         </div>
          
     </div>
+    
     <section style="padding-top: 100px;" class="products-section1">
         <div class="row">
             <div class=" col-6 col-md-4" data-aos="fade-right" data-aos-duration="2000" >
@@ -182,7 +183,8 @@
         </div>
          
     </div>
-
+    
+      
     <footer class="footer-containter">
         <div class="row ">
             <div class="col-6">
@@ -215,6 +217,22 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+      </script>
+      <script>
+          var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
       </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
