@@ -111,6 +111,7 @@ ul#location li {
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
     font-weight: 600;
+     font-family: 'Roboto', sans-serif !important;
 }
 .nav-tittle_port:hover{
     border-bottom: 2px solid #f4a6bf;
