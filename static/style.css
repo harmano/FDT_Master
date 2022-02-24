@@ -57,6 +57,44 @@ body{
                 object-fit: cover !important;
             }
 
+.magazine-view-22{
+    background-color: #f4a6bf;
+    margin: auto;
+    width: 100%;
+    font: 12px !important;
+    padding: 3px 0px;
+}
+.magazine-view-33{
+    background-color: #f4a6bf;
+    margin: auto;
+    width: 100%;
+    font: 12px !important;
+    padding: 3px 0px;
+}
+.cta-banner{
+    font-family: 'Roboto', sans-serif !important;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-right: 0px !important;
+    width: 100%;
+    
+}
+.margin-rgi{
+    padding-right: 7%;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  
+}
+.margin-rgi:hover{
+    padding-right: 7%;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+  
+}
 /*......NAV....*/
 
 .dot{
@@ -373,13 +411,9 @@ i{
     padding-top: 2px;
 }
 .view_maga:hover{
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    color: black;
-    text-decoration: underline;
-    float: right;
-    padding-left: 20px;
+
+    color: rgb(124, 124, 124);
+
 }
 .p-disc-icon{
     font-size: 10px;
@@ -548,6 +582,10 @@ i{
     body {
         /*....background-color: green !important;...*/
       }
+
+      .accordion-button{
+        font-size: 20px !important;
+    }
     .margin-top-contaxt{
         margin-top: 50px !important;
     }
@@ -594,7 +632,7 @@ i{
     }
     
     .list-inline-item{
-        margin-bottom: 4px;
+        margin-bottom: 2px;
     }
     /*......Shapes....*/
     
@@ -685,6 +723,9 @@ ol, ul {
       }
       .img-home{
         padding-top: 30px;
+    }
+    .accordion-button{
+        font-size: 20px !important;
     }
 
     .img-banner{
